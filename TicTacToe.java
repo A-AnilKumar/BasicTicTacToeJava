@@ -24,9 +24,6 @@ public class TicTacToe {
 
             printBoard(Board);
 
-            // String rowString;
-            // String colString;
-
             int row;
             int col;
             while (true) {
@@ -34,18 +31,6 @@ public class TicTacToe {
                 
                 row = scan.nextInt();
                 col = scan.nextInt();
-                
-                // rowString = scan.next();
-                // colString = scan.next();
-                // row = Integer.valueOf(rowString);
-                // col = Integer.valueOf(colString);
-                
-                // try {
-                //     // if( )    
-                // } catch (Exception e) {
-                //   
-                // }
-                
                 
                 if (row < 0 || row >= Board.length || col < 0 || col >= Board[0].length) {
                     System.out.println("Input values for row and col between (0 - 2)");
